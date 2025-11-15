@@ -1,0 +1,48 @@
+# Git files
+.git
+.gitignore
+.github
+
+# Documentation
+README.md
+docs/
+*.md
+
+# Build artifacts
+openmcpauthproxy
+openmcpauthproxy.exe
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test files
+*_test.go
+test/
+coverage.txt
+
+# IDE and editor files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker files (don't need in build context)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# CI/CD
+.github/
+
+# Resources (not needed in proxy build)
+resources/
+
+# Temporary files
+tmp/
+*.log
